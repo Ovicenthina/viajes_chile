@@ -1,0 +1,35 @@
+body{
+    background: #000000;
+}
+
+/* Navbar */
+.navbar{
+    background-color:  #318B99;
+    z-index: 1;
+ }
+
+ /* Hr */
+ .estilo{
+     size: 2px;
+     color: #318B99;
+ }
+
+ /* Quienes somos */
+
+ #quienes_somos{
+     color: #ffffff;
+ }
+
+ .container_icono{
+    background-color:  #318B99; 
+ }
+
+ .container_icono i{
+     text-align: center;
+ }
+
+ 
+ /* Destacados */
+ .card-body{
+     background: #318B99;
+ }
