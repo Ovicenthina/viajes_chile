@@ -5,7 +5,7 @@ $(document).ready(function(){
 
        $("html, body").anime(
            {
-               scrollTop:$(numeral).offset().top -60
+               scrollTop:$(numeral).offset().top 
        },
        1000
        )
