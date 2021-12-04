@@ -4,9 +4,9 @@ $(document).ready(function(){
        var numeral= this.hash 
 
        $("html, body").anime(
-           {scrollTop:$(numeral).offset().top -70
+           {scrollTop:$(numeral).offset().top -50
        },
-       800
+       1000
        )
 
     })
