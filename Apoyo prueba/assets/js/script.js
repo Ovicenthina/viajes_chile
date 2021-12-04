@@ -4,7 +4,8 @@ $(document).ready(function(){
        var numeral= this.hash 
 
        $("html, body").anime(
-           {scrollTop:$(numeral).offset().top -50
+           {
+               scrollTop:$(numeral).offset().top -60
        },
        1000
        )
@@ -23,3 +24,11 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
 
+
+
+
+  $( ".card-title" ).click(function() {
+    $( ".card-text" ).toggle(  function() {
+      // Animation complete.
+    });
+  });
