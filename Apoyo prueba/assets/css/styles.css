@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: auto !important;
+    }
+
 body{
     background: #000000;
 }
@@ -7,6 +11,11 @@ body{
     background-color:  #318B99;
     z-index: 1;
  }
+
+ .navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
 
  /* Hr */
  .estilo{
@@ -33,3 +42,19 @@ body{
  .card-body{
      background: #318B99;
  }
+
+/* footer*/
+#footer{
+    background: #318B99 ;
+}
+
+#footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ 
+#footer h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
